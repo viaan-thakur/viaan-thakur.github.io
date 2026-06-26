@@ -194,16 +194,16 @@ function initTerminal() {
   if (!term) return;
 
   const lines = [
-    { type: 'prompt', text: '~/AxionAOSP', cmd: 'source build/envsetup.sh' },
+    { type: 'prompt', text: '~/crDroid', cmd: 'source build/envsetup.sh' },
     { type: 'out',    text: 'including device/oneplus/larry/vendorsetup.sh', color: 'cyan' },
-    { type: 'prompt', text: '~/AxionAOSP', cmd: 'lunch axion_larry-userdebug' },
+    { type: 'prompt', text: '~/crDroid', cmd: 'lunch lineage_larry-userdebug' },
     { type: 'out',    text: '============================================' },
     { type: 'out',    text: 'PLATFORM_VERSION_CODENAME=REL', color: 'muted' },
-    { type: 'out',    text: 'TARGET_PRODUCT=axion_larry', color: 'green' },
+    { type: 'out',    text: 'TARGET_PRODUCT=lineage_larry', color: 'green' },
     { type: 'out',    text: 'TARGET_BUILD_VARIANT=userdebug', color: 'amber' },
-    { type: 'prompt', text: '~/AxionAOSP', cmd: 'm bacon -j$(nproc --all)' },
-    { type: 'out',    text: '[ 98% 24158/24592] Building AxionAOSP...', color: 'cyan' },
-    { type: 'out',    text: 'Out: out/target/product/larry/axion-larry.zip', color: 'green' },
+    { type: 'prompt', text: '~/crDroid', cmd: 'm bacon -j$(nproc --all)' },
+    { type: 'out',    text: '[ 98% 24158/24592] Building crDroid', color: 'cyan' },
+    { type: 'out',    text: 'Out: out/target/product/larry/crDroid-Larry.zip', color: 'green' },
   ];
 
   let html = '';
