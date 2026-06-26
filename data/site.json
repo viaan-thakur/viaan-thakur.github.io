@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "name": "Viaan Thakur",
+    "alias": "viaan-thakur",
+    "title": "Android Custom ROM Developer",
+    "description": "Android Custom ROM Developer, Kernel Maintainer, and Open Source Enthusiast focused on building fast, stable, and feature-rich Android experiences.",
+    "location": "Shimla, Himachal Pradesh, India",
+    "github": "ViaanLarryROMS",
+    "email": "viaan@nuvio.studio",
+    "avatar": "https://avatars.githubusercontent.com/ViaanLarryROMS"
+  },
+  "projects": [
+    {
+      "id": "axion-aosp",
+      "name": "AxionAOSP",
+      "tagline": "Performance-first Android ROM",
+      "description": "My own Android ROM project focused on performance, stability, and exceptional user experience. Built from AOSP with custom optimizations and thoughtful feature additions.",
+      "tags": ["ROM", "AOSP", "Android", "Performance"],
+      "icon": "⚡",
+      "color": "#00D4FF",
+      "github": "https://github.com/ViaanLarryROMS",
+      "featured": true
+    },
+    {
+      "id": "larry-archive",
+      "name": "Larry ROM Archive",
+      "tagline": "100GB+ community resource hub",
+      "description": "A large archive containing ROMs, kernels, recoveries, and Android resources for the community. Over 100 GB of curated files maintained for the Android modding ecosystem.",
+      "tags": ["Archive", "Community", "ROMs", "Kernels"],
+      "icon": "🗃️",
+      "color": "#7C3AED",
+      "size": "100+ GB",
+      "featured": true
+    },
+    {
+      "id": "strato-kernel",
+      "name": "Strato Kernel",
+      "tagline": "Optimized for smoothness & battery",
+      "description": "Custom kernel development focused on optimization, smoothness, and extended battery life. Fine-tuned schedulers, governors, and drivers for a snappier experience.",
+      "tags": ["Kernel", "Linux", "Performance", "Battery"],
+      "icon": "🌊",
+      "color": "#06B6D4",
+      "featured": true
+    },
+    {
+      "id": "device-trees",
+      "name": "Android Device Trees",
+      "tagline": "Bring-up & maintenance work",
+      "description": "Maintaining and developing Android device trees, vendor trees, and related bring-up work. Supporting multiple devices across different OEMs.",
+      "tags": ["Device Tree", "Bring-up", "Vendor", "SELinux"],
+      "icon": "🌳",
+      "color": "#10B981"
+    },
+    {
+      "id": "nuvio-studio",
+      "name": "Nuvio Studio",
+      "tagline": "Lead Developer & Server Manager",
+      "description": "A web design and development studio where I serve as Lead Developer and Server Manager, building modern digital experiences and managing cloud infrastructure.",
+      "tags": ["Web Dev", "Cloud", "Server", "Studio"],
+      "icon": "🏢",
+      "color": "#F59E0B"
+    }
+  ],
+  "devices": [
+    {
+      "name": "OnePlus Nord CE 3 Lite",
+      "codename": "larry",
+      "android": "14",
+      "status": "Active",
+      "role": "Official Maintainer",
+      "oem": "OnePlus",
+      "chip": "Snapdragon 695"
+    },
+    {
+      "name": "OnePlus Nord N30 5G",
+      "codename": "dre",
+      "android": "14",
+      "status": "Active",
+      "role": "Official Maintainer",
+      "oem": "OnePlus",
+      "chip": "Snapdragon 695"
+    },
+    {
+      "name": "Redmi Note 10",
+      "codename": "sunny / mojito",
+      "android": "13",
+      "status": "Maintained",
+      "role": "Maintainer",
+      "oem": "Xiaomi",
+      "chip": "Snapdragon 678"
+    },
+    {
+      "name": "Lenovo Tab M10 HD",
+      "codename": "TB-X505X",
+      "android": "12",
+      "status": "Legacy",
+      "role": "Developer",
+      "oem": "Lenovo",
+      "chip": "MediaTek MT6762"
+    }
+  ],
+  "skills": [
+    { "name": "Android", "icon": "android", "level": 95 },
+    { "name": "Linux", "icon": "linux", "level": 90 },
+    { "name": "Arch Linux", "icon": "arch", "level": 88 },
+    { "name": "Git", "icon": "git", "level": 92 },
+    { "name": "GitHub", "icon": "github", "level": 93 },
+    { "name": "Bash", "icon": "bash", "level": 85 },
+    { "name": "Python", "icon": "python", "level": 75 },
+    { "name": "C/C++", "icon": "c", "level": 70 },
+    { "name": "Makefile", "icon": "make", "level": 80 },
+    { "name": "YAML", "icon": "yaml", "level": 85 },
+    { "name": "Cloudflare", "icon": "cloudflare", "level": 80 },
+    { "name": "Docker", "icon": "docker", "level": 72 },
+    { "name": "HTML/CSS", "icon": "html", "level": 82 },
+    { "name": "JavaScript", "icon": "js", "level": 78 }
+  ],
+  "timeline": [
+    {
+      "year": "2020",
+      "title": "Started Android Modding",
+      "description": "First steps into the Android modding world — flashing ROMs, exploring recoveries, and understanding the ecosystem.",
+      "icon": "🚀"
+    },
+    {
+      "year": "2021",
+      "title": "First Custom ROM Build",
+      "description": "Successfully compiled and flashed my first custom Android ROM from source. A defining moment in my development journey.",
+      "icon": "🔧"
+    },
+    {
+      "year": "2022",
+      "title": "First Official Maintainer Role",
+      "description": "Became an official device maintainer, taking responsibility for stable releases and community support.",
+      "icon": "🏆"
+    },
+    {
+      "year": "2022",
+      "title": "Strato Kernel Born",
+      "description": "Started custom kernel development with Strato Kernel, focusing on performance optimization and battery efficiency.",
+      "icon": "⚡"
+    },
+    {
+      "year": "2023",
+      "title": "Created AxionAOSP",
+      "description": "Founded AxionAOSP — my own Android ROM project with a vision for performance, stability, and great UX.",
+      "icon": "💫"
+    },
+    {
+      "year": "2023",
+      "title": "Joined Nuvio Studio",
+      "description": "Joined Nuvio Studio as Lead Developer and Server Manager, expanding into web and cloud infrastructure work.",
+      "icon": "🏢"
+    },
+    {
+      "year": "2024",
+      "title": "Larry ROM Archive Launched",
+      "description": "Launched the Larry ROM Archive — a 100GB+ community resource hub for Android ROMs, kernels, and recoveries.",
+      "icon": "🗃️"
+    },
+    {
+      "year": "2025",
+      "title": "Expanding Open Source Impact",
+      "description": "Continuing to grow open-source contributions, maintaining more devices, and building build infrastructure at scale.",
+      "icon": "🌍"
+    }
+  ]
+}
